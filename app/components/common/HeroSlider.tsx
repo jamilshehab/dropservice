@@ -91,7 +91,7 @@ export default function Hero() {
 
                         <p className="text-white/70 mt-2">{item.subtitle}</p>
 
-                        <div className="mt-6 text-sm text-indigo-300 opacity-0 group-hover:opacity-100 transition">
+                        <div className="mt-6 text-sm text-primary opacity-0 group-hover:opacity-100 transition">
                           Chat on WhatsApp →
                         </div>
                       </div>

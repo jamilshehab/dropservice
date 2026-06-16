@@ -150,7 +150,7 @@ export default function ServiceComponent() {
                         </p>
 
                         <div className="mt-6 flex items-center justify-between">
-                          <span className="text-sm font-medium text-green-600">
+                          <span className="text-sm font-medium text-primary">
                             Chat on WhatsApp →
                           </span>
 
