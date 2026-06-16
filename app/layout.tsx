@@ -3,6 +3,7 @@ import { Geist } from "next/font/google";
 import "./globals.css";
 import Header from "./components/common/Header/Header";
 import Footer from "./components/common/Footer/Footer";
+import FloatingSocials from "./components/common/SocialMedia";
 
 const geist = Geist({
   subsets: ["latin"],
@@ -25,6 +26,7 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        <FloatingSocials />
       </body>
     </html>
   );

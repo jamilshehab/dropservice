@@ -1,12 +1,12 @@
 export default function CTA() {
-  const PHONE_NUMBER = "96170000000";
+  const PHONE_NUMBER = "+96181963427";
 
   const whatsappLink = `https://wa.me/${PHONE_NUMBER}?text=${encodeURIComponent(
     "Hi! I want to talk to you about your services.",
   )}`;
 
   return (
-    <section className="relative py-28 overflow-hidden">
+    <section className="relative py-28 overflow-hidden" id="contact">
       {/* background glow */}
       <div className="absolute inset-0 -z-10">
         <div className="absolute top-[-120px] left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-indigo-500/10 blur-[140px] rounded-full" />

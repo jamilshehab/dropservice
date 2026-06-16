@@ -9,7 +9,7 @@ import Image from "next/image";
 import { useRef } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
-const PHONE_NUMBER = "96170000000";
+const PHONE_NUMBER = "+96181963427";
 
 const services = [
   {
@@ -55,7 +55,7 @@ export default function ServiceComponent() {
   const nextRef = useRef(null);
 
   return (
-    <section className="py-28 bg-white">
+    <section className="py-28 bg-white" id="services">
       <div className="mx-auto max-w-7xl px-6">
         {/* HEADER */}
         <div className="mx-auto max-w-2xl text-center">

@@ -34,7 +34,7 @@ const features = [
 
 export default function WhyUs() {
   return (
-    <section className="relative overflow-hidden py-20">
+    <section id="#about" className="relative overflow-hidden py-20">
       {/* Background */}
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-indigo-100 via-sky-50 to-violet-100" />
 

@@ -39,9 +39,9 @@ export default function Header() {
         {/* Desktop CTA */}
         <div className="hidden md:flex items-center">
           <Link
-            href="https://wa.me/961XXXXXXXX"
+            href="https://wa.me/+96181963427"
             target="_blank"
-            className="inline-flex bg-[var(--color-primary)] text-white px-6 py-3 rounded-xl hover:opacity-90 transition"
+            className="inline-flex bg-primary text-white px-6 py-3 rounded-xl hover:opacity-90 transition"
           >
             Get Started
           </Link>
@@ -89,7 +89,7 @@ export default function Header() {
               href="https://wa.me/961XXXXXXXX"
               target="_blank"
               onClick={() => setOpen(false)}
-              className="mt-2 bg-[var(--color-primary)] text-white rounded-xl py-3 text-center hover:opacity-90 transition"
+              className="mt-2 bg-color-primary text-white rounded-xl py-3 text-center hover:opacity-90 transition"
             >
               Get Started
             </Link>
