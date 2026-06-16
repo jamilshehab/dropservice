@@ -13,7 +13,7 @@ export default function FloatingSocials() {
     <div className="fixed bottom-6 right-6 z-50 flex flex-col gap-3">
       {/* WhatsApp */}
       <Link
-        href="https://wa.me/96170123456"
+        href="https://wa.me/96181963427"
         target="_blank"
         aria-label="WhatsApp"
         className="w-12 h-12 rounded-full bg-green-500 text-white flex items-center justify-center shadow-lg hover:scale-110 transition-transform"
