@@ -28,21 +28,14 @@ export default function Footer() {
 
             <div className="mt-4 space-y-3 text-sm">
               <Link
-                href="/courses"
-                className="block text-neutral-500 hover:text-neutral-900"
-              >
-                Courses
-              </Link>
-
-              <Link
-                href="/services"
+                href="#"
                 className="block text-neutral-500 hover:text-neutral-900"
               >
                 Services
               </Link>
 
               <Link
-                href="/about"
+                href="#about"
                 className="block text-neutral-500 hover:text-neutral-900"
               >
                 About
