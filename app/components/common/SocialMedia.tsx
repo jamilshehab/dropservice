@@ -23,7 +23,7 @@ export default function FloatingSocials() {
 
       {/* Facebook */}
       <Link
-        href="https://facebook.com/tu.brain"
+        href="https://www.facebook.com/TuBrainCenter"
         target="_blank"
         aria-label="Facebook"
         className="w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center shadow-lg hover:scale-110 transition-transform"
