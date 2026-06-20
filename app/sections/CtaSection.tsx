@@ -6,7 +6,7 @@ export default function CTA() {
   )}`;
 
   return (
-    <section className="relative py-28 overflow-hidden" id="contact">
+    <section className="relative py-28 overflow-hidden" id="cta">
       {/* background glow */}
       <div className="absolute inset-0 -z-10">
         <div className="absolute top-[-120px] left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-indigo-500/10 blur-[140px] rounded-full" />

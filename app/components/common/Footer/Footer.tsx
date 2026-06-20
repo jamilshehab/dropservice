@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Footer() {
@@ -8,10 +9,9 @@ export default function Footer() {
         <div className="grid gap-12 md:grid-cols-4">
           {/* BRAND */}
           <div className="md:col-span-2">
-            <h3 className="text-xl font-semibold tracking-tight">
-              Your Platform Name
-            </h3>
-
+            <Link href="/" className="flex items-center gap-2">
+              <Image alt="Logo" src="/logo/logo.png" width={150} height={150} />
+            </Link>
             <p className="mt-4 text-sm text-neutral-500 leading-6 max-w-md">
               A modern platform combining premium courses and done-for-you
               services. Learn new skills, or get expert help — all in one place.
