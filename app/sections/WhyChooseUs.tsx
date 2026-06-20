@@ -1,16 +1,11 @@
-import {
-  GraduationCap,
-  BriefcaseBusiness,
-  Sparkles,
-  ShieldCheck,
-} from "lucide-react";
+import { BriefcaseBusiness, Sparkles, ShieldCheck, Code2 } from "lucide-react";
 
 const features = [
   {
-    icon: GraduationCap,
-    title: "High-Quality Learning",
+    icon: Code2,
+    title: "Custom Solutions",
     description:
-      "Access carefully crafted courses designed to teach practical, real-world skills.",
+      "We build tailored digital solutions designed specifically for your business needs and goals.",
   },
   {
     icon: BriefcaseBusiness,
@@ -28,13 +23,13 @@ const features = [
     icon: ShieldCheck,
     title: "Built on Trust",
     description:
-      "Every course and service is selected with quality, transparency, and reliability in mind.",
+      "Every service is delivered with quality, transparency, and reliability in mind.",
   },
 ];
 
 export default function WhyUs() {
   return (
-    <section id="#about" className="relative overflow-hidden py-20">
+    <section id="about" className="relative overflow-hidden py-20">
       {/* Background */}
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-indigo-100 via-sky-50 to-violet-100" />
 
@@ -51,15 +46,15 @@ export default function WhyUs() {
           </span>
 
           <h2 className="mt-6 text-4xl font-semibold tracking-tight md:text-5xl">
-            Everything you need to learn,
+            Everything you need to build,
             <br />
-            build, and grow.
+            scale, and grow.
           </h2>
 
           <p className="mt-5 text-lg leading-8 text-neutral-500">
-            Whether you're looking to gain new skills or hire professionals to
-            get the job done, our platform brings education and execution
-            together in one seamless experience.
+            Whether you're looking to grow your business or hire professionals
+            to get the job done, our platform focuses purely on high-quality
+            services and execution.
           </p>
         </div>
 
