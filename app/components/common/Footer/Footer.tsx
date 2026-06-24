@@ -12,7 +12,7 @@ export default function Footer() {
             <Link href="/" className="flex items-center gap-2">
               <Image
                 alt="Logo"
-                src="/logo/logo-version-two.jpg"
+                src="/logo/logo-version-two.png"
                 width={150}
                 height={150}
               />
@@ -38,7 +38,12 @@ export default function Footer() {
               >
                 Services
               </Link>
-
+              <Link
+                href="#courses"
+                className="block text-neutral-500 hover:text-neutral-900"
+              >
+                Courses
+              </Link>
               <Link
                 href="#about"
                 className="block text-neutral-500 hover:text-neutral-900"
