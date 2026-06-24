@@ -10,7 +10,12 @@ export default function Footer() {
           {/* BRAND */}
           <div className="md:col-span-2">
             <Link href="/" className="flex items-center gap-2">
-              <Image alt="Logo" src="/logo/logo.png" width={150} height={150} />
+              <Image
+                alt="Logo"
+                src="/logo/logo-version-two.jpg"
+                width={150}
+                height={150}
+              />
             </Link>
             <p className="mt-4 text-sm text-neutral-500 leading-6 max-w-md">
               A modern platform combining premium courses and done-for-you

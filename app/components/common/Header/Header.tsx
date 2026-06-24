@@ -16,7 +16,12 @@ export default function Header() {
       <div className="relative max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
-          <Image alt="Logo" src="/logo/logo.png" width={150} height={150} />
+          <Image
+            alt="Logo"
+            src="/logo/logo-version-two.png"
+            width={150}
+            height={150}
+          />
         </Link>
 
         {/* Desktop Nav */}
@@ -28,7 +33,9 @@ export default function Header() {
           <Link href="#services" className="hover:text-black transition">
             Services
           </Link>
-
+          <Link href="#courses" className="hover:text-black transition">
+            Courses
+          </Link>
           <Link href="#cta" className="hover:text-black transition">
             Get In Touch
           </Link>
