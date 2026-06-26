@@ -43,7 +43,7 @@ export default function FloatingSocials() {
 
       {/* LinkedIn */}
       <Link
-        href="https://linkedin.com/company/yourcompany"
+        href="https://www.linkedin.com/company/tubrain/"
         target="_blank"
         aria-label="LinkedIn"
         className="w-12 h-12 rounded-full bg-[#0A66C2] text-white flex items-center justify-center shadow-lg hover:scale-110 transition-transform"

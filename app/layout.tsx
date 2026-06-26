@@ -11,8 +11,9 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Drop Service Platform",
-  description: "Learn. Build. Execute.",
+  title: "TU Brain | Business & Professional Services",
+  description:
+    "TU Brain provides a wide range of business and professional services to help individuals and companies grow. All Services. One Partner.",
 };
 
 export default function RootLayout({
