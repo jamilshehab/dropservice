@@ -155,10 +155,6 @@ export default function CourseComponent() {
                           {course.desc}
                         </p>
 
-                        <p className="mt-2 text-sm font-medium text-gray-900">
-                          {course.price}
-                        </p>
-
                         <div className="mt-6 flex items-center justify-between">
                           <span className="text-sm font-medium text-primary">
                             Get help →
